@@ -28,7 +28,7 @@
 2. Download & extract the latest kafka binaries to same project folder (say kafka-bins)
     - https://kafka.apache.org/downloads
 3. Edit PATH to include kafka
-    - echo PATH="$PATH:/absolute/path/to/kafka-bins/bin >> ~/.bashrc
+    - echo PATH="$PATH:/absolute/path/to/kafka-bins/bin" >> ~/.bashrc
     - source ~/.bashrc and open new tab
 4. cd kafka-bins
 5. Make directories for storing data

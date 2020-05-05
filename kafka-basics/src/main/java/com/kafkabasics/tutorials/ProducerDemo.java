@@ -11,7 +11,7 @@ public class ProducerDemo {
 
     public static void main(String[] args) {
 
-        String bootstrapServer = "172.0.0.21:9092";
+        String bootstrapServer = "127.0.0.1:9092";
 
         // create Producer properties
         Properties properties = new Properties();

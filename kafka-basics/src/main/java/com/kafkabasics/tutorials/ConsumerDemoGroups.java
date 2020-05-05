@@ -18,7 +18,7 @@ public class ConsumerDemoGroups {
 
         final Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
 
-        String bootstrapServer = "172.0.0.21:9092";
+        String bootstrapServer = "127.0.0.1:9092";
         String groupId = "my-first_application";
         String topic = "my_topic";
 

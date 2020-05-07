@@ -116,7 +116,7 @@ public class ConsumerDemoWithThread {
                 logger.info("Received shutdown signal!");
             } finally {
                 consumer.close();
-                // tell main code we are done with the cinsumer
+                // tell main code we are done with the consumer
                 latch.countDown();
             }
         }
